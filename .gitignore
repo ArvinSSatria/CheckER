@@ -39,3 +39,28 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# build logs
+build.log
+*.log
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+
+# puppeteer / chromium cache
+.cache/
+
+# tauri
+src-tauri/target/
+src-tauri/nextjs-server.zip
+src-tauri/gen/
+
+# build temp
+.nextjs-bundle/
+.deps-install-temp/
